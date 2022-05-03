@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+
+:root{
+    --main-color:#443;
+    --border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    --border-radius-hover:4% 95% 6% 95%/95% 4% 92% 5%;
+    --border:.2rem solid var(--main-color);
+    --border-hover:.2rem dashed var(--main-color);
+}
+
+ ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      background-color:rgb(27,27,27);
+}
+  
+::-webkit-scrollbar {
+      width: 10px;
+      background-color: rgb(27,27,27);
+}
+
+::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #b8860b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Arima Madurai', cursive;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%; 
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    background: #02590f;
+    color: #fffafa
+}
+
+.btn{
+    display: inline-block;
+    padding:.9rem 1.5rem;
+    border-radius: var(--border-radius);
+    color:var(--main-color);
+    background: none;
+    border:var(--border);
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.btn:hover{
+    border-radius: var(--border-radius-hover);
+    border:var(--border-hover);
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: calc(5rem + 1rem);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease;
+    transition-property: height, background-color; 
+}
+
+
+
+
+

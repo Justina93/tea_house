@@ -1,0 +1,73 @@
+.products {
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100vh;
+}
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+    border-top: 0.2px solid #daa520;
+    border-bottom: 0.2px solid #daa520;
+}
+
+.products .box-container .box{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.products .box-container .box .icons a{
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    border:2px solid #52593b;
+    color: #b8860b;
+    margin:.3rem;
+    overflow: hidden;
+}
+
+.products .box-container .box .icons a:hover{
+    background:#111;
+    color: #b8860b;
+    border: 1.5px solid #b8860b;
+    transition: none;
+}
+
+.products .box-container .box .image{
+    padding: 1.5rem 0;
+}
+
+.products .box-container .box .image img{
+    width: 60%;
+}
+
+.products .box-container .box .content h3{
+    color:#443;
+    font-size: 1.1rem;
+    width: 100%;
+    font-weight: 800;
+}
+
+.products .box-container .box .content h3:hover {
+    color: #0a7e8c;
+}
+
+.products .box-container .box .content .stars{
+    padding: 1rem;
+}
+
+.products .box-container .box .content .stars i{
+    font-size: 1.1rem;
+    color: #b8860b;
+}
+
+.products .box-container .box .content .price{
+    color: #b94e48;
+    font-size: 1.3rem;
+}
+
+.products .box-container .box .content .price span{
+    font-size: 0.8rem;
+}

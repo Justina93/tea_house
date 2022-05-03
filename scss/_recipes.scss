@@ -1,0 +1,71 @@
+
+.blogs {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.blogs .swiper-button-next {
+    color: #fffafa;
+    font-weight: 900;
+}
+
+.blogs .swiper-button-prev {
+    color: #fffafa;
+    font-weight: 900;
+}
+
+.blogs .blogs-slider .box{
+    margin:2rem 0;
+    border: 3px solid #1111;
+}
+
+.blogs .blogs-slider .box .image{
+    height: 30rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blogs .blogs-slider .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .blogs-slider .box .content{
+    padding:0.5rem;
+    text-align: center;
+}
+
+.blogs .blogs-slider .box .content h3{
+    font-size: 1.7rem;
+    color:#52593b;
+   font-weight: 900;
+}
+
+.blogs .blogs-slider .box .content p{
+    font-size: 1.2rem;
+    color:#111;
+    padding:0.5rem 0.1rem;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-top: 0;
+}
+.blogs .blogs-slider .box .content .btn {
+     padding:0.8rem;
+    color:var(--main-color); 
+    background: none;
+    border:var(--border);
+    cursor: pointer;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    left: auto;
+    margin-left: 29rem;
+    border: 2px solid #4444;
+}
+
+.blogs .blogs-slider .box .content .btn:hover {
+    border-radius: var(--border-radius-hover);
+    border:var(--border-hover);
+}
+

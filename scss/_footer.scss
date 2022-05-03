@@ -1,0 +1,58 @@
+.footer {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35rem;
+    border-top: 1px solid #b8860b;
+}
+
+.footer .box-container .box h3{
+    font-size: 1.3rem;
+    padding:0.5rem 0;
+    color:#b8860b;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1rem;
+    padding:1rem 0;
+    color:#443;
+    font-weight: 900;
+}
+
+#box-center {
+    text-align: center;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .credit{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.5rem 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#b8860b;
+    font-weight: 900;
+}
+
+.footer .credit span{
+    color: #95c00a;
+    border-bottom: 1px solid #a6d608;
+    font-style: italic;
+}
+
+
